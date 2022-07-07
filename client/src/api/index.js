@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: '${route}',
+  baseURL: "",
   headers: {
     "Content-Type": "application/json; charset=UTF-8",
   },
